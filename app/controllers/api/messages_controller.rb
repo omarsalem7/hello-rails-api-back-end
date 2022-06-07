@@ -1,5 +1,5 @@
 class Api::MessagesController < ApplicationController
-  before_action :set_message, only: %i[ show update destroy ]
+  before_action :set_message, only: %i[show update destroy]
 
   # GET /messages
   def index
@@ -9,11 +9,12 @@ class Api::MessagesController < ApplicationController
   end
 
   private
-    def set_message
-      @message = Message.find(params[:id])
-    end
-    
-    def message_params
-      params.require(:message).permit(:message)
-    end
+
+  def set_message
+    @message = Message.find(params[:id])
+  end
+
+  def message_params
+    params.require(:message).permit(:message)
+  end
 end
