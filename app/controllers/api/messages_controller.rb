@@ -4,7 +4,7 @@ class Api::MessagesController < ApplicationController
   # GET /messages
   def index
     @messages = Message.all
-    render json: {message:@messages[rand(0...@messages.length)].message}
+    render json: { message: @messages[rand(0...@messages.length)].message }
   end
 
   private
