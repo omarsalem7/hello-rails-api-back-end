@@ -1,24 +1,41 @@
-# README
+![](https://img.shields.io/badge/Hello-App-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# hello-rails-backend
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- Ruby on rails --api
+- 💓
 
-* System dependencies
+# Get Started
+To get a local copy up and running follow these simple steps.
 
-* Configuration
+```bash
+$ git clone https://github.com/omarsalem7/hello-rails-back-end
+$ cd hello-rails-back-end
+$ bundle install 
+$ rake db:create 
+$ rake db:migrate 
+$ rails s 
+```
 
-* Database creation
+## Authors
 
-* Database initialization
+👤 **Omar Salem**
 
-* How to run the test suite
+- GitHub: [Omar Salem](https://github.com/omarsalem7)
+- Twitter: [Omar Salem](https://twitter.com/Omar80491499)
+- LinkedIn: [Omar Salem](https://www.linkedin.com/in/omar-salem-a6945b177/)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## 🤝 Contributing
 
-* ...
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
